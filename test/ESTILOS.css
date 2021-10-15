@@ -1,0 +1,1256 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    scroll-behavior: smooth;
+}
+
+.block{
+    overflow: hidden;
+    clear: both;
+    
+}
+h2{
+    clear: both;
+}
+.proicon a img{
+
+    height: 10vh;
+    margin-top: 0 10px;
+    float: left;
+}
+
+                                                     /* Header*/
+
+header{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url(./rack.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.inicio a{
+
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    float: left;
+    margin: .5em 1em;
+    font: bold;
+}
+
+
+.navi a{
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    margin: 1em 1em;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.navi a:hover{
+    
+    text-decoration: overline;
+    padding: 10px;
+    background-color: rgba(43, 3, 3, 0.541);
+    border-radius: 4px;
+    
+ }
+
+.titulo{
+    
+    font-weight: bold;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    clear: both;
+    text-align: center;
+    /*line-height: 65vh;*/
+    font: bold;
+    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+                                                               /*Main*/
+
+
+                                                                    /*icono*/
+
+main .Proestel{
+    height: 10vh;
+    padding: 4vh;
+}
+
+
+main .icono{
+
+margin: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+                                                                /*Nosotros*/
+
+main .nosotros{
+
+    height: 100vh;
+    /*background-color: rgba(70, 131, 180, 0.425);*/
+    background-image: url(./grafitipc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    }
+ main .CONTENIDO{
+
+    margin: 5vh;
+     
+}
+
+main .CONTENIDO h2{
+
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        
+         
+}
+main .CONTENIDO h3{
+
+        font-size: 2.5em;
+        display: flex;
+        justify-content: start;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+         
+}
+main .CONTENIDO p{
+
+            font-size: 1.5em;
+            display: flex;
+            margin: 5px 0;
+            
+            
+             
+}
+
+.nosotros .rund img{
+
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+.nosotros .rund{
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+                                                            /*Marcas*/
+
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.marcas img{
+    height: 25vh;
+    
+}
+    
+
+                                                        /*Servicios*/
+
+main .Servicios{
+
+    height: 180vh;
+    background-image: url(./estrella\ fugaz.jpg);
+    /*background-color: rgba(0, 128, 128, 0.644);*/
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    
+}
+main .Servicios h2{
+
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+main .Servicios .serv{
+
+    display: grid;
+    align-items: start;
+    
+    grid-template-columns: repeat(4,fr);
+    grid-template-rows: repeat(2,fr);
+    
+
+}
+main .Servicios .serv .card{
+
+    height: 60vh;
+    width: 35vh;
+    margin: 3em 1em;
+    align-items: baseline;
+
+}main .Servicios .serv img{
+
+    height: 50vh;
+    width: 35vh;
+    margin: 3em 1em;
+    align-items: baseline;
+    border-radius: 5vh;
+    grid-column: 4/5;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s1{
+ 
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s2{
+ 
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s3{
+ 
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s4{
+ 
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s5{
+ 
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s6{
+ 
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s7{
+ 
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+
+                                                    /* Socios y Productos */
+
+main .socios{
+    height: 170vh;
+   /* background-color: rgb(231, 197, 197);*/
+    background-image: url(./manos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+main .socios h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+    margin: 1em 0;
+}
+main .socios .par a img{
+    width: 75vh;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.685);
+}
+main .socios .partners{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+main .socios .productos a img{
+    width: 45vh;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 100px 10px rgba(0, 0, 0, 0.685);
+    background-color: #fff;
+}
+main .socios .productos{
+
+
+    display: grid;
+    grid-template-columns: repeat(4,fr);
+    grid-template-rows: repeat(2,fr);
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    
+}
+main .socios .productos .p1{
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+main .socios .productos .p2{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+main .socios .productos .p3{
+
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+main .socios .productos .p4{
+
+    grid-column: 4/5;
+    grid-row: 1/2;
+    
+}
+main .socios .productos .p5{
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+main .socios .productos .p6{
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+main .socios .productos .p7{
+
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+main .socios .productos .p8{
+
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+}
+
+
+
+                                                            /* Pie de pagina*/
+footer{
+
+    height: 90vh;
+    background-color: rgba(109, 9, 9, 0.63);
+}
+
+footer .pie{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+footer .correo{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    color: white;
+}
+
+
+.proicon a img{
+
+    height: 12vh;
+    margin-top: 0;
+}
+
+
+
+ /* Adaptacion a dispositivos */
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+
+
+@media (max-width: 768px){
+
+                                                            /*head*/
+.proicon a img{
+
+    height: 8vh;
+    margin-top: 0 10px;
+    float: left;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url(./rack.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.inicio a{
+
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    float: left;
+    margin: .5em 1em;
+    font: bold;
+}
+.navi a{
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    float: right;
+    margin: 1em 1em;
+    
+}
+.titulo{
+
+    font-weight: bold;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    clear: both;
+    text-align: center;
+    /*line-height: 65vh;*/
+    font: bold;
+    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+                                                /*Nosotros*/
+main .CONTENIDO h2{
+
+    font-size: 1.8em;
+                                                    
+                                                    
+                                                     
+}
+main .CONTENIDO h3{
+                                            
+    font-size: 1.5em;
+                                                    
+                                                     
+}
+main .CONTENIDO p{
+                                            
+    font-size: 1.2em;
+                                                                                                                
+}
+.nosotros .rund img{
+
+    height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+.nosotros .rund{
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+                                                            /*Marcas*/
+
+    .marcas{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    
+    }
+    .marcas img{
+        height: 15vh;
+    
+    }
+                                                        /*Servicios*/
+
+main .Servicios{
+
+    height: 180vh;
+    background-image: url(./estrella\ fugaz.jpg);
+    /*background-color: rgba(0, 128, 128, 0.644);*/
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    
+    
+    
+}
+main .Servicios h2{
+
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+                                                        /*Servicios*/
+
+main .Servicios{
+
+    height: 250vh;
+    background-image: url(./estrella\ fugaz.jpg);
+    /*background-color: rgba(0, 128, 128, 0.644);*/
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+                                                            
+}
+
+main .Servicios h2{
+
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+main .Servicios .serv{
+
+    display: grid;
+    align-items: start;
+    
+    grid-template-columns: repeat(3,fr);
+    grid-template-rows: repeat(3,fr);
+    
+
+}
+main .Servicios .serv .card{
+
+    height: 80vh;
+    width: 25vh;
+    margin: 1em .5em;
+    font-size: .8em;
+    align-items: baseline;
+    overflow: hidden;
+
+
+}
+main .Servicios .serv img{
+
+    height: 45vh;
+    width: 30vh;
+    margin: 2em .5em;
+    align-items: baseline;
+    border-radius: 5vh;
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+main .Servicios .serv .s1{
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s2{
+ 
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s3{
+ 
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s4{
+ 
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s5{
+ 
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s6{
+ 
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s7{
+ 
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+                                                            /*partners*/
+
+main .socios{
+height: 180vh;
+/* background-color: rgb(231, 197, 197);*/
+background-image: url(./manos.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+main .socios h2{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 3em;
+margin: 1em 0;
+}
+main .socios .par a img{
+width: 30vh;
+height: 12.5vh;
+object-fit: cover;
+border-radius: 5px;
+box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.685);
+}
+main .socios .partners{
+
+display: flex;
+justify-content: space-evenly;
+
+}
+                                            /*   */
+
+main .socios .productos a img{
+width: 30vh;
+height: 12.5vh;
+object-fit: cover;
+border-radius: 5px;
+box-shadow: 5px 5px 100px 10px rgba(0, 0, 0, 0.685);
+background-color: #fff;
+}
+main .socios .productos{
+
+
+display: grid;
+grid-template-columns: repeat(2,fr);
+grid-template-rows: repeat(4,fr);
+align-items: center;
+justify-items: center;
+gap: 30px;
+
+}
+main .socios .productos .p1{
+
+grid-column: 1/2;
+grid-row: 1/2;
+
+}
+main .socios .productos .p2{
+
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
+main .socios .productos .p3{
+
+grid-column: 1/2;
+grid-row: 2/3;
+
+}
+main .socios .productos .p4{
+
+grid-column: 2/3;
+grid-row: 2/3;
+
+}
+main .socios .productos .p5{
+
+grid-column: 1/2;
+grid-row: 3/4;
+
+}
+main .socios .productos .p6{
+
+grid-column: 2/3;
+grid-row: 3/4;
+
+}
+main .socios .productos .p7{
+
+grid-column: 1/2;
+grid-row: 4/5;
+
+}
+main .socios .productos .p8{
+
+grid-column: 2/3;
+grid-row: 4/5;
+
+}
+footer{
+
+height: 100vh;
+background-color: rgba(109, 9, 9, 0.63);
+}
+.mapa{
+width: 35vh;
+height: auto;
+}
+.city{
+margin: 1em;
+}
+
+}
+
+
+                                                        /* Adaptacion a dispositivos */
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+                                                        /**/
+
+
+
+                                                        @media (max-width: 400px){
+
+                                                            /*head*/
+.proicon a img{
+
+    height: 7.5vh;
+    margin-top: 0 10px;
+    float: left;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-image: url(./rack.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.inicio a{
+
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    float: left;
+    margin: .5em 1em;
+    font: bold;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navi a{
+
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    float: right;
+    margin: 1em 1em;
+    padding: 10px;
+    background-color: rgba(43, 3, 3, 0.541);
+    border-radius: 4px;
+    
+    
+}
+.navi a:hover{
+    
+    text-decoration: overline;
+    
+    
+ }
+
+.titulo{
+
+    font-weight: bold;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    clear: both;
+    text-align: center;
+    /*line-height: 65vh;*/
+    font: bold;
+    
+    justify-content: center;
+    align-content: center;
+    
+}
+
+                                                /*Nosotros*/
+main .CONTENIDO h2{
+
+    font-size: 1.5em;
+                                                    
+                                                    
+                                                     
+}
+main .CONTENIDO h3{
+                                            
+    font-size: 1.5em;
+                                                    
+                                                     
+}
+main .CONTENIDO p{
+                                            
+    font-size: 1em;
+                                                                                                                
+}
+.nosotros .rund img{
+
+    height: 12vh;
+    width: 12vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+.nosotros .rund{
+    margin: 30px 0;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+                                                            /*Marcas*/
+
+    .marcas{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    
+    }
+    .marcas img{
+        height: 8vh;
+    
+    }
+                                                        /*Servicios*/
+
+main .Servicios{
+
+    height: 180vh;
+    background-image: url(./estrella\ fugaz.jpg);
+    /*background-color: rgba(0, 128, 128, 0.644);*/
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    
+    
+    
+}
+main .Servicios h2{
+
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+                                                        /*Servicios*/
+
+main .Servicios{
+
+    height: 350vh;
+    background-image: url(./estrella\ fugaz.jpg);
+    /*background-color: rgba(0, 128, 128, 0.644);*/
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+                                                            
+}
+
+main .Servicios h2{
+
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+main .Servicios .serv{
+
+    display: grid;
+    align-items: start;
+    
+    grid-template-columns: repeat(2,fr);
+    grid-template-rows: repeat(4,fr);
+    
+
+}
+main .Servicios .serv .card{
+
+    height: 80vh;
+    width: 20vh;
+    margin: 1em .3em;
+    font-size: .78em;
+    align-items: baseline;
+    overflow: hidden;
+
+}main .Servicios .serv img{
+
+    height: 50vh;
+    width: 30vh;
+    margin: 2em .5em;
+    align-items: baseline;
+    border-radius: 5vh;
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+main .Servicios .serv .s1{
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s2{
+ 
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+main .Servicios .serv .s3{
+ 
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s4{
+ 
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+main .Servicios .serv .s5{
+ 
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+main .Servicios .serv .s6{
+ 
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+main .Servicios .serv .s7{
+ 
+    grid-column: 1/2;
+    grid-row: 4/5;
+
+}
+
+                                                            /*partners*/
+
+main .socios{
+height: 180vh;
+/* background-color: rgb(231, 197, 197);*/
+background-image: url(./manos.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+main .socios h2{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 3em;
+margin: 1em 0;
+}
+main .socios .par a img{
+width: 30vh;
+height: 12.5vh;
+object-fit: cover;
+border-radius: 5px;
+box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.685);
+}
+main .socios .partners{
+
+display: flex;
+justify-content: space-evenly;
+
+}
+                                            /*   */
+
+main .socios .productos a img{
+width: 30vh;
+height: 12.5vh;
+object-fit: cover;
+border-radius: 5px;
+box-shadow: 5px 5px 100px 10px rgba(0, 0, 0, 0.685);
+background-color: #fff;
+}
+main .socios .productos{
+
+
+display: grid;
+grid-template-columns: repeat(2,fr);
+grid-template-rows: repeat(4,fr);
+align-items: center;
+justify-items: center;
+gap: 30px;
+
+}
+main .socios .productos .p1{
+
+grid-column: 1/2;
+grid-row: 1/2;
+
+}
+main .socios .productos .p2{
+
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
+main .socios .productos .p3{
+
+grid-column: 1/2;
+grid-row: 2/3;
+
+}
+main .socios .productos .p4{
+
+grid-column: 2/3;
+grid-row: 2/3;
+
+}
+main .socios .productos .p5{
+
+grid-column: 1/2;
+grid-row: 3/4;
+
+}
+main .socios .productos .p6{
+
+grid-column: 2/3;
+grid-row: 3/4;
+
+}
+main .socios .productos .p7{
+
+grid-column: 1/2;
+grid-row: 4/5;
+
+}
+main .socios .productos .p8{
+
+grid-column: 2/3;
+grid-row: 4/5;
+
+
+
+}
+
+
+/**/
+
+
+footer{
+
+height: 100vh;
+background-color: rgba(109, 9, 9, 0.63);
+}
+.mapa{
+width: 18vh;
+height: auto;
+}
+.city{
+
+width: 20vh;
+margin: 2 0;
+padding: 0;
+
+}
+
+.cdmx{
+    margin-right: 0;
+
+}
+.cdmx h2{
+    font-size: .7;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    flex-wrap: nowrap;
+    
+}
+.puebla h2{
+    font-size: .7;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    
+}
+
+
+.cdmx h3{
+    
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    
+    
+}
+.puebla h3{
+    
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    
+}
+
+
+
+.city h2{
+    font-size: 1em;
+    
+}.city h3{
+    font-size: .8em;
+    
+}.city p{
+    font-size: .7em;
+    
+}
+
+}
